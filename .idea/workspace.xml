@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c07f634a-5c5e-40c4-bbda-90d6436ec4dc" name="Changes" comment="" />
+    <list default="true" id="c07f634a-5c5e-40c4-bbda-90d6436ec4dc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/products.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/products.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/products/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/products/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +52,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/vova/depot",
+    "last_opened_file_path": "/home/vova/depot/app/assets/images",
     "nodejs_package_manager_path": "yarn",
     "ruby.rails.projectView.checked": "true",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable"
@@ -356,7 +362,7 @@
       <workItem from="1652883513307" duration="598000" />
       <workItem from="1652936421761" duration="4220000" />
       <workItem from="1655799592176" duration="318000" />
-      <workItem from="1659700453424" duration="4852000" />
+      <workItem from="1659700453424" duration="8980000" />
     </task>
     <servers />
   </component>
