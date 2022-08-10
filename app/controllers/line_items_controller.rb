@@ -2,6 +2,7 @@ class LineItemsController < ApplicationController
   include CurrentCart
   before_action :set_line_item, only: %i[ show edit update destroy ]
   before_action :set_cart, only: :create
+  after_action :reset_counter, only: :create
 
   def index
     @line_items = LineItem.all
