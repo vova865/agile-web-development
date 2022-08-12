@@ -10,7 +10,9 @@
     <% @products.each do |p| %>
       <% cache p do %>
         <li>
-          <%= image_tag(p.image_url) %>
+          <%= button_to line_items_path(product_id: p) do %>
+            <%= image_tag(p.image_url) %>
+          <% end %>
           <h2><%= p.title %></h2>
           <p>
             <%= sanitize(p.description) %>

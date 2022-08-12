@@ -7,4 +7,5 @@
   <td><%= line_item.product.title %></td>
   <td class="price"><%= number_to_currency(line_item.total_price) %></td>
   <td><%= button_to 'Delete items', line_item, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  <td><%= button_to 'Decrement for one' %></td>
 </tr>

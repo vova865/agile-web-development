@@ -12,4 +12,8 @@ module CurrentCart
   def reset_counter
     session[:counter] = 0
   end
+
+  def decrement_item
+    params[:cart_id]
+  end
 end
