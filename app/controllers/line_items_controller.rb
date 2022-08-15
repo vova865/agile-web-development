@@ -1,6 +1,6 @@
 class LineItemsController < ApplicationController
   include CurrentCart
-  before_action :set_line_item, only: %i[ show edit update destroy ]
+  before_action :set_line_item, only: %i[ show edit update destroy decrement]
   before_action :set_cart, only: :create
   after_action :reset_counter, only: :create
 
@@ -53,6 +53,15 @@ class LineItemsController < ApplicationController
       format.html { redirect_to store_index_url, notice: "Line item was successfully destroyed." }
       format.json { head :no_content }
     end
+  end
+
+  def decrement
+    if @line_item.quantity > 1
+      @line_item.update(quantity: @line_item.quantity -= 1)
+    else
+      @line_item.destroy
+    end
+    redirect_to store_index_url
   end
 
   private
