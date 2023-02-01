@@ -11,7 +11,7 @@
       <% cache p do %>
         <li>
           <%= button_to line_items_path(product_id: p) do %>
-            <%= image_tag(p.image_url) %>
+            <%= image_tag(p.image_url) if p.image_url.present? %>
           <% end %>
           <h2><%= p.title %></h2>
           <p>

@@ -32,3 +32,10 @@ module AuthenticationHelpers
     login_as users(:one)
   end
 end
+
+class ActionDispatch::IntegrationTest
+  include AuthenticationHelpers
+end
+class ActionDispatch::SystemTestCase
+  include AuthenticationHelpers
+end
